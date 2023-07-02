@@ -30,7 +30,7 @@
     "gulp-watch": "^5.0.1",
     "node-sass": "^7.0.1",
     "npm-check-updates": "^15.2.6",
-    "yargs": "^17.5.1"
+    "yargs": "^17.7.2"
   },
   "scripts": {
     "build": "gulp build",
