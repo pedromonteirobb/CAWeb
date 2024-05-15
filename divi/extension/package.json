@@ -11,15 +11,18 @@
     "react-number-format": "^4.9.1",
     "react-owl-carousel": "^2.3.3",
     "react-render-html": "^0.6.0",
-    "react-scripts": "^3.4.4",
-    "yarn": "^1.22.17"
+    "react-scripts": "^5.0.0",
+    "yarn": "^1.22.17",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "divi-scripts start",
     "build": "divi-scripts build",
     "zip": "divi-scripts build && divi-scripts zip",
     "eject": "divi-scripts eject",
-    "postinstall": "npm config set yarn --global"
+    "postinstall": "npm config set yarn --global",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "browserslist": {
     "development": [
@@ -37,5 +40,6 @@
   "cde": {
     "gettext": "caweb-divi-module-extension",
     "prefix": "caweb"
-  }
+  },
+  "snyk": true
 }
