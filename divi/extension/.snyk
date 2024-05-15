@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - divi-scripts > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2024-05-15T20:46:52.245Z'
+        id: 'npm:hoek:20180212'
+        path: divi-scripts > fsevents > node-pre-gyp > request > hawk > hoek
+    - divi-scripts > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2024-05-15T20:46:52.245Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          divi-scripts > fsevents > node-pre-gyp > hawk > cryptiles > boom >
+          hoek
+    - divi-scripts > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2024-05-15T20:46:52.245Z'
+        id: 'npm:hoek:20180212'
+        path: divi-scripts > fsevents > node-pre-gyp > request > hawk > boom > hoek
+    - divi-scripts > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2024-05-15T20:46:52.245Z'
+        id: 'npm:hoek:20180212'
+        path: divi-scripts > fsevents > node-pre-gyp > request > hawk > sntp > hoek
+    - divi-scripts > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-05-15T20:46:52.245Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          divi-scripts > fsevents > node-pre-gyp > request > hawk > cryptiles >
+          boom > hoek
